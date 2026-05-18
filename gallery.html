@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image gallery</title>
+</head>
+<body>
+    <h1>image gallery</h1>
+
+    <hr>
+
+    <img src="FOREST.jpg" alt="beautiful green forest" title="green forest" width="250" border="2" hspace="10" vspace="10">
+
+    <img src="MOUNTAIN.jpg" alt="mountain landscape" title="mountain view" width="250" border="2" hspace="10" vspace="10">
+
+    <img src="BEACH.jpg" alt="beach sunset" title="sunset at the beach" width="250" border="2" hspace="10" vspace="10">
+
+    <img src="https://picsum.photos/250/180" alt="random online image" title="online image" width="250" height="180" border="2" hspace="10" vspace="10">
+
+    <hr>
+    <h2>images as links</h2>
+
+    <a href="https://youtube.com" target="_self">
+        <img src="images/linK.jpg" alt="youtube link image" width="250" height="180">
+
+    </a>
+
+    <a href="https://github.com" target="_self">
+        <img src="images/github.jpg" alt="github link image" width="250" height="180">
+    </a>
+
+    <hr>
+
+    <figure>
+        <img src="FLOWER.jpg" alt="RED ROSE" title="Flower" width="250" height="250">
+        <figcaption>Red ROSE</figcaption>
+    </figure>
+
+    <figure>
+        <img src="RIVER.jpg" alt="river" title="river" width="250" height="250">
+        <figcaption>river</figcaption>
+    </figure>
+
+    <hr>
+    <h2>RESPONSIVE ELEMENT</h2>
+
+    <picture>
+        <source media="(max-width:600px)" srcset="images/mobile.jpg">
+        <source media="(max-width:1000px)" srcset="images/tablet.jpg">
+        <img src="images/desktop.jpg" alt="responsive image" width="250" height="250">
+    </picture>
+
+    <hr>
+    <h2>Image alignment</h2>
+
+    <img src="images/left.jpg" alt="left alignment" align="left" width="200" height="250">
+
+    <p>this is a paragraph that wraps around the image</p>
+
+    <br><br><br><br>
+
+    <hr>
+
+    <footer>
+        <p>&copy;2026 advanced gallery</p>
+    </footer>
+</body>
+</html>
